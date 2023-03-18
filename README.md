@@ -1,4 +1,4 @@
-# jogoDaVelha
+# Jogo das velhas
 Este mini projeto apresenta uma réplica do jogo da velha, desenvolvida com HTML, CSS e JavaScript. Para organizar as responsabilidades, foi utilizado o padrão de arquitetura MVC.
 <details>
 <summary>Exibir:</summary>
