@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stage {
+    background-color: papayawhip;
+    border-radius: 20px;
+    height: 440px;
+    width: 500px;
+    display: inline-block;
+}
+
+.square {
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.oldAmalia {
+    position: relative;
+
+}
+
+.oldAmalia:after {
+    content:"\1F475";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.oldFlorinda {
+    position: relative;
+
+}
+
+.oldFlorinda:after {
+    content: "\1F469";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.player {
+    border-radius: 10px;
+    margin-top: 60px;
+    width: 150px;
+    height:100px;
+    background-color: lightskyblue;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.player-name {
+    flex-direction: column;
+    align-items: flex-start;
+}
